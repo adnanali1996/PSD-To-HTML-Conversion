@@ -39,16 +39,14 @@
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	height: 860px;
 }
 
 
-h1{
-	font-family: 'Montserrat-Bold', sans-serif;
-}
 
 .container{
 	max-width: 1100;
+  position: relative;
+  overflow: hidden;
 }
 
 ul li a {
@@ -56,9 +54,132 @@ ul li a {
 	font-size: 16px;
 	text-transform: uppercase;
 }
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-    color: black;
-}
+
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link {
     color: white;
+    transition:  color white 3s;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: white;
+  padding-bottom: 5px;
+  transition: border-bottom 0.3s, color 0.2s;
+  border-bottom: 3px solid;
+}
+.pudding{
+  text-transform: uppercase;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.fruit-cake{
+  color:white;
+  font-family: 'HelveticaNeue-Thin', sans-serif;
+  font-size: 43px;
+  line-height:3rem
+}
+.pt-6{
+  padding-top: 50px;
+}
+.img-fluid{
+  width: 85%;
+  margin-bottom: -240px;
+}
+.cta-button{
+  padding: 23px 35px;
+  background: #282828;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-button:hover{
+  background: #383737;
+  transition: color 0.3s;
+}
+
+@media (max-width: 767.98px) {
+  .text-center-button{
+    text-align: center !important;
+  }
+}
+@media (min-width: 991.99px) {
+  .text-center-button{
+    text-align: left !important;
+  }
+}
+.phone-class{
+  padding-right: 20px;
+}
+
+#app-feature{
+  background: white;
+}
+
+#app-feature h2{
+  color: #8a8a8a;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+#app-feature p{
+  font-family: 'helvetica-light', sans-serif;
+  color: #646464;
+
+}
+#app-feature h4{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.app-feature-description{
+  padding: 10px 150px;
+}
+/* JOKER SECTION */
+#joker-section{
+background-image: url(../images/bignose.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 600px;
+}
+.text-white{
+  color:white;
+}
+.text-carrot{
+  color:#f45150;
+}
+#joker-section h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+#joker-section p{
+  color:#585858;
+  line-height: 10px;
+}
+.mt-6{
+  margin-top: 100px;
+}
+.download-btn{
+  padding: 15px 35px;
+  background: #f45150;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.inline-block{
+  display: inline-block;
 }
