@@ -212,6 +212,7 @@ height: 600px;
 .about{
   font-family:  'OpenSans-Light', sans-serif;
   color: white;
+  font-style: italic;
 }
 
 #footer h6{
@@ -224,4 +225,7 @@ height: 600px;
 }
 p{
   font-family: 'Montserrat-Regular', sans-serif;
+}
+.vertical-align{
+  vertical-align: middle;
 }
