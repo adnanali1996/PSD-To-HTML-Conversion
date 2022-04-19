@@ -229,3 +229,33 @@ p{
 .vertical-align{
   vertical-align: middle;
 }
+.iphone-btn{
+  position: absolute;
+  right: 170px;
+}
+.iphone-off{
+  position: absolute;
+}
+.iphone-on{
+  position: absolute;
+  left: 103px;
+  top: 178px;
+}
+.imgs{
+  z-index: 999;
+}
+/* ANIMATIONS */
+.js-wp-2{
+  opacity: 0;
+}
+.js-wp-2.animated{
+  opacity: 1;
+}
+
+.js-wp-3{
+  opacity: 0;
+  animation-delay: 3.3s;
+}
+.js-wp-3.animated{
+  opacity: 1;
+}
